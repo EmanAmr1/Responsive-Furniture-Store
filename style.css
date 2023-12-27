@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*nav*/
+.social-links img {
+    width: 3rem;
+}
+
+@media (max-width:500px){
+    .social-links img {
+        width: 2rem;
+       
+    }
+}
+
+
+.icons img {
+    width: 2rem;
+  
+}
+
+.nav img:hover {
+
+    width: 3rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    box-shadow: 1px 1px 2px gray;
+    height: 10vh;
+    align-content: center;
+}
+
+.icons i {
+    margin-left: 1vh;
+}
+
+.social-links i {
+   
+    margin-left: 1vh;
+    cursor: pointer;
+}
+
+
+
+/*header*/
+
+.header {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(238, 224, 208);
+    height: 10vh;
+
+
+}
+
+.header a {
+    margin: auto 0px;
+
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.header a:hover {
+    color: green;
+}
+
+/*content*/
+
+.content {
+    position: relative;
+    background-image: url(./image/background.png);
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    background-position: 70%;
+}
+
+.content h1 {
+    position: absolute;
+    text-align: center;
+    margin-top: 10%;
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+    margin-left: 4%;
+}
+
+.content .bt-sty {
+    position: absolute;
+    text-align: center;
+    margin-top: 25%;
+    margin-left: 10%;
+    width: 150px;
+
+    
+    border: 2px solid black;
+
+}
+.content .bt-sty a{
+color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+.content p {
+    position: absolute;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 20%;
+    font-weight: bold;
+    color: black;
+
+
+}
+
+
+
+@media (max-width:500px){
+    .content h1 {
+        font-size: 35px;
+    }
+    .content p {
+        
+        margin-top: 35%;
+       
+    }
+    
+    .content .bt-sty {
+        
+        margin-top: 45%;
+       
+    
+    }
+
+
+}
+
+
+@media (max-width:900px){
+    .content h1 {
+        font-size: 40px;
+       
+    }
+    .content p {
+        
+        margin-top: 30%;
+       
+    }
+    
+    .content .bt-sty {
+        
+        margin-top: 40%;
+       
+    
+    }
+
+
+}
+
+
+
+
+.con-text {
+    position: absolute;
+    top: 20%;
+    transform: translate(0, -50%);
+    color: black;
+}
+
+.mycard {
+
+    transition: 0.5s ease;
+    cursor: pointer;
+
+}
+
+.mycard:hover {
+    transform: translateY(-10px);
+}
+
+.vm:hover {
+
+    color: brown;
+}
+
+
+/* footer */
+#footer {
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+}
+
+#footer h1 {
+    color: white;
+    padding-top: 30px;
+}
+
+#footer p {
+    color: white;
+}
+
+.icons i {
+    color: rgba(238, 224, 208);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.copyright {
+    color: white;
+    margin-top: 20px;
+}
+
+.credite {
+    color: white;
+}
+
+/* footer */
